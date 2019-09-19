@@ -1,0 +1,28 @@
+title: Luanda Dantas
+description: Meu Blog 
+
+url: https://luandadantas.github.io
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+  - title: Início
+    url: /index.html
+  - title: Sobre
+    url: /about
+  - title: Contato
+    url: /contact
+
+social:
+  github: luandadantas
+  twitter: _LuandaDantas
+  facebook: luandadantas
+  email: ludanttas@gmail.com
+
+google_analytics: ""
