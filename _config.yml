@@ -33,7 +33,7 @@ repository: "luandadantas/luandadantas.github.io"
 markdown: kramdown
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
