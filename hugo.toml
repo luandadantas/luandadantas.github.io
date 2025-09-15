@@ -49,7 +49,9 @@ url = "https://github.com/luandadantas"
   [[module.imports]]
     path = "github.com/gurusabarish/hugo-profile"
 
-
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 # [[Menus.main]]
 # identifier = "posts"
 # name = "Posts"
