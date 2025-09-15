@@ -1,0 +1,58 @@
+baseURL = "https://luandadantas.me"
+languageCode = "en-us"
+defaultContentLanguage = "pt-br"
+title = "Luanda Dantas"
+#enableRobotsTXT = true
+
+[params]
+title = "Luanda Dantas"
+#description = ""
+favicon = "fav.png"
+# useBootstrapCDN = false
+# mathjax = false
+# animate = true
+
+[params.hero]
+    enable = true
+    intro = "Olá, meu nome é..."
+    title = "Luanda Dantas."
+    subtitle = "Esse é meu espaço de criação."
+    #content = ""
+    image = "/foto-perfil.jpg"
+    # [button]
+    #   enable = true
+    #   name = "Resume"
+    #   url = "#"
+    # [socialLinks]
+    #   [fontAwesomeIcons]
+    #     - icon = fab fa-github
+    #       url = https://example.com
+    #     - icon = fab fa-twitter
+    #       url = https://example.com
+    #   [customIcons]
+    #     - icon = /fav.png
+    #       url = "https://example.com"
+    # [params.hero.bottomImage]
+    #   enable = true
+    #   image = "/foto-perfil.jpg"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/luandadantas/"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-github"
+url = "https://github.com/luandadantas"
+
+
+[module]
+  [[module.imports]]
+    path = "github.com/gurusabarish/hugo-profile"
+
+
+# [[Menus.main]]
+# identifier = "posts"
+# name = "Posts"
+# title = "Blog posts"
+# url = "/posts"
+# weight = 1
